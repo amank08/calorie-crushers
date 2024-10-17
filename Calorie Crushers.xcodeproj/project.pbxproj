@@ -20,6 +20,10 @@
 		9D22330A2CC1D44B00317F9D /* Goals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2233092CC1D44B00317F9D /* Goals.swift */; };
 		9D22330C2CC1D45B00317F9D /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D22330B2CC1D45B00317F9D /* Gender.swift */; };
 		9D2233102CC1D4CB00317F9D /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D22330F2CC1D4CB00317F9D /* Profile.swift */; };
+		9D816F3A2CC1D94700917F15 /* MealSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D816F392CC1D94700917F15 /* MealSelection.swift */; };
+		9D816F3C2CC1D9C300917F15 /* Barcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D816F3B2CC1D9C300917F15 /* Barcode.swift */; };
+		9D816F3E2CC1DA7000917F15 /* ProgressChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D816F3D2CC1DA7000917F15 /* ProgressChecker.swift */; };
+		9D816F402CC1DA9700917F15 /* DailyNutrition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D816F3F2CC1DA9700917F15 /* DailyNutrition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +60,10 @@
 		9D2233092CC1D44B00317F9D /* Goals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goals.swift; sourceTree = "<group>"; };
 		9D22330B2CC1D45B00317F9D /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
 		9D22330F2CC1D4CB00317F9D /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		9D816F392CC1D94700917F15 /* MealSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealSelection.swift; sourceTree = "<group>"; };
+		9D816F3B2CC1D9C300917F15 /* Barcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barcode.swift; sourceTree = "<group>"; };
+		9D816F3D2CC1DA7000917F15 /* ProgressChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressChecker.swift; sourceTree = "<group>"; };
+		9D816F3F2CC1DA9700917F15 /* DailyNutrition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyNutrition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +121,10 @@
 				9D2233092CC1D44B00317F9D /* Goals.swift */,
 				9D22330B2CC1D45B00317F9D /* Gender.swift */,
 				9D22330F2CC1D4CB00317F9D /* Profile.swift */,
+				9D816F392CC1D94700917F15 /* MealSelection.swift */,
+				9D816F3B2CC1D9C300917F15 /* Barcode.swift */,
+				9D816F3D2CC1DA7000917F15 /* ProgressChecker.swift */,
+				9D816F3F2CC1DA9700917F15 /* DailyNutrition.swift */,
 				9D2233032CC1D35A00317F9D /* ContentView.swift */,
 				9D2232D92CC1D06000317F9D /* Assets.xcassets */,
 				9D2232DB2CC1D06000317F9D /* Preview Content */,
@@ -277,11 +289,15 @@
 			files = (
 				9D2233062CC1D3AA00317F9D /* Weight.swift in Sources */,
 				9D2233102CC1D4CB00317F9D /* Profile.swift in Sources */,
+				9D816F402CC1DA9700917F15 /* DailyNutrition.swift in Sources */,
 				9D2233002CC1D21A00317F9D /* Login.swift in Sources */,
 				9D22330A2CC1D44B00317F9D /* Goals.swift in Sources */,
+				9D816F3A2CC1D94700917F15 /* MealSelection.swift in Sources */,
+				9D816F3E2CC1DA7000917F15 /* ProgressChecker.swift in Sources */,
 				9D2233022CC1D2E700317F9D /* Age.swift in Sources */,
 				9D2233042CC1D35A00317F9D /* ContentView.swift in Sources */,
 				9D2232D62CC1D05E00317F9D /* Calorie_CrushersApp.swift in Sources */,
+				9D816F3C2CC1D9C300917F15 /* Barcode.swift in Sources */,
 				9D22330C2CC1D45B00317F9D /* Gender.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

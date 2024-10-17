@@ -24,7 +24,7 @@ struct WeightSelectionView: View {
             .pickerStyle(SegmentedPickerStyle())
             .padding()
 
-            Slider(value: $weight, in: 30...150, step: 0.5) {
+            Slider(value: $weight, in: 60...300, step: 0.5) {
                 Text("Weight")
             }
             .padding()
